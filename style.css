@@ -93,12 +93,12 @@ body {
     font-weight: 400;
     line-height: 1.35;
     height: 100%;
-    /*background-color: #FDECF0;*/
-    background-color: #eee;
+    background-color: #FDECF0;
+    /*background-color: #eee;
     background-image:         linear-gradient(top, #FBDAE2, white, #C3EDFD); /* W3C */
-    background-image:    -moz-linear-gradient(top, #FBDAE2, white, #C3EDFD); /* FF3.6+ */
-    background-image: -webkit-linear-gradient(top, #FBDAE2, white, #C3EDFD); /* Chrome10+,Safari5.1+ */
-    background-attachment: fixed; */
+    /*background-image:    -moz-linear-gradient(top, #FBDAE2, white, #C3EDFD); /* FF3.6+ */
+    /*background-image: -webkit-linear-gradient(top, #FBDAE2, white, #C3EDFD); /* Chrome10+,Safari5.1+ */
+    /*background-attachment: fixed; */
 
 }
 
