@@ -18,7 +18,7 @@
 
 .embed-container {
     margin: auto;
-    margin-top: 0rem;
+    margin-top: 0.35rem;
     margin-bottom: 1rem;
     /*margin: 1rem 5vw 1rem 5vw;*/
     position: relative; 
@@ -74,7 +74,7 @@
     /*border-color: lightgray;
     border-style: solid;
     border-width: .2rem;*/
-    margin-top: 1rem;
+    margin-top: 1.35rem;
     
 }
 
@@ -93,6 +93,7 @@ body {
     line-height: 1.35;
     height: 100%;
     background-color: #FDECF0;
+    margin-top: 0rem;
     /*background-color: #eee;
     background-image:         linear-gradient(top, #FBDAE2, white, #C3EDFD); /* W3C */
     /*background-image:    -moz-linear-gradient(top, #FBDAE2, white, #C3EDFD); /* FF3.6+ */
@@ -146,7 +147,7 @@ br {
     /* font-family: "Work Sans", sans-serif; */
     font-family:"Lato", sans-serif;
     margin-top: 1rem;
-    margin-bottom: .2rem;
+    margin-bottom: -.35rem;
 }
 
 #section-subhead {
