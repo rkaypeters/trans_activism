@@ -22,11 +22,11 @@
 
     <div class = "flex-container">  
 
-    <div class = flex-item id = "header">
-        <h1 id = "page-title">Trans Rights are Human Rights</h1>
-        <h2 id = "subtitle">Anti-trans legislation and Twitter resilience</h3>
-        <h3 id = "author">Liz Cory & Rachel Peterson, <span style="font-weight: 300">Spring 2021</span></h3>
-    </div>  
+        <div class = flex-item id = "header">
+            <h1 id = "page-title">Trans Rights are Human Rights</h1>
+            <h2 id = "subtitle">Anti-trans legislation and Twitter resilience</h3>
+            <h3 id = "author">Liz Cory & Rachel Peterson, <span style="font-weight: 300">Spring 2021</span></h3>
+        </div>  
 
         <div class = "flex-item">
             <h2 id = "section-title">Anti-transgender legislation is on the rise.</h2>
@@ -51,25 +51,21 @@
             <h2 id = "section-title">But trans folks are showing resilience nationwide.</h2>
             <p>This map shows the number of anti-trangender bills introduced by each state in 2020 and 2021 along 
                 with tweets from the same time period including “#TransRightsAreHumanRights.”</p>
-
-
-        <div class="embed-container"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Trans Resilience" src="https://nu.maps.arcgis.com/apps/Embed/index.html?webmap=cb0ff533d709475ca83599566a64fa08&extent=-140,15.5,-52,57.5&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe></div>
-
-        <div id="legend" class="legend">
-                        <h4>Bills</h4>
-                        <div><span style="background-color: #dadaeb"></span>1</div>
-                        <div><span style="background-color: #bcbddc"></span>3</div>
-                        <div><span style="background-color: #9d99c7"></span>5</div>
-                        <div><span style="background-color: #766cb2"></span>7</div>
-                        <div><span style="background-color: #552790"></span>9</div>
-                        
-                        <h4 id=tweet-leg-header>Tweets</h4>
-                        <div><span style="background-color: #f0d342", id = "tweet-leg"></span>1</div>
-                </div>
-
-
         </div>
-        
+    </div>
+
+
+    <div class="embed-container"><iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Trans Resilience" src="https://nu.maps.arcgis.com/apps/Embed/index.html?webmap=cb0ff533d709475ca83599566a64fa08&extent=-140,15.5,-52,57.5&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe>
+        <div id="legend" class="legend">
+            
+                        <div><span style="background-color: #F4F1EA"></span>0 Anti-Trans Bills</div>
+                        <div><span style="background-color: #89847A"></span>5 Anti-Trans Bills</div>
+                        <div><span style="background-color: #8FD3F4", id = "tweet-leg"></span>Positive Tweet</div>
+        </div>
+
+    </div>
+
+    <div class = "flex-container">  
 
         <div class = "flex-item">
             <h2 id = "section-title">Harmful bills have been introduced throughout the country — check for your state below.</h2>        
@@ -131,7 +127,6 @@
 
     </div>  
 
-    <script src="map.js"></script>
 
 </body>
 </html>
