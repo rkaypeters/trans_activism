@@ -102,29 +102,6 @@ body {
 
 }
 
-a {
-  color: #079ADA;
-}
-
-a:link {
-  color: #079ADA;
-}
-
-/* visited link */
-a:visited {
-  color: #079ADA;
-}
-
-/* mouse over link */
-a:hover {
-  color: #079ADA;
-}
-
-/* selected link */
-a:active {
-  color: #079ADA;
-}
-
 header {
     /* padding: 10px; */
     
@@ -301,11 +278,11 @@ a {
   }
   
   a:link {
-    color: blue;
+    color: #079ADA;
   }
   
   a:visited {
-    /* color: rgb(69, 39, 160); */
+    color: #079ADA;
   }
   
   a:focus {
