@@ -9,10 +9,10 @@
     justify-content: center;
 
     margin: auto;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
     min-width: 400px;
-    max-width: 720px;
+    max-width: 680px;
 
 }
 
@@ -88,7 +88,7 @@ body {
     /* font-family:"Work Sans", sans-serif; */
     font-family:"Lato", sans-serif;
     color: #2a2a2a;
-    font-size: 0.95rem;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.35;
     height: 100%;
@@ -102,7 +102,7 @@ body {
 }
 
 br {
-    line-height: 1.35rem;
+    line-height: 1rem;
      }
 
 
@@ -129,7 +129,7 @@ br {
 }
 
 #author {
-    font-size:0.8rem;
+    font-size:0.85rem;
     line-height: 1;
     font-weight: 700;
     /* font-family: "Work Sans", sans-serif; */
@@ -150,7 +150,7 @@ br {
 }
 
 #section-subhead {
-    font-size: 0.95rem;
+    font-size: 1rem;
     line-height: 1;
     font-weight: 700;
     /* font-family: "Work Sans", sans-serif; */
@@ -158,39 +158,6 @@ br {
     /*margin-top: 3rem;
     margin-bottom: .2rem;*/
 }
-
-.mapboxgl-popup {
-    /* font-family:"Work Sans", sans-serif; */
-    font-family:"Lato", sans-serif;
-
-}
-
-
-.mapboxgl-popup-content {
-    /* font-family:"Work Sans", sans-serif; */
-    font-family:"Lato", sans-serif;
-    margin: 0;
-
-}
-
-/* div#map-tooltip {
-    display: none;
-    font-family: 'Work Sans', sand-serif;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    width: 125px;
-    height: 125px;
-    background: #eee;
-    padding: 8px;
-    border-radius: 8px;
-    box-shadow: -1px 1px 4px lightgrey;    
-}
-
-div#map-tooltip > div {
-    margin-bottom: 5px;
-} */
-
 
 
 .legend {
@@ -247,9 +214,6 @@ hr {
     box-shadow: -3px 3px 0px #fff;
 }
 
-/* a {
-    hover
-} */
 
 #footer{
     /* margin: 5rem; */
@@ -257,13 +221,11 @@ hr {
     /* display: flex;  */
     justify-content: center;
     font-weight: 400;
-    font-size: .8rem;
+    font-size: .85rem;
     line-height: 1.1rem;
     margin: auto;
     /* margin-top: 20px; */
     margin-bottom: 2rem;
-    /* min-width: 700px; */
-    /* max-width: 55%; */
 }
 
 #footer p {
