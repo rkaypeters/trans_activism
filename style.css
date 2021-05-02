@@ -123,7 +123,7 @@ header {
     font-family: "Space Grotesk",sans-serif;
     font-size: 2.75rem;
     font-weight: 700;
-    text-shadow: -3px 3px 0px #ffffff;
+    text-shadow: -3px 3px 0px #FFFFFF;
     /*text-shadow: -3px 3px 0px pink;*/
     margin-bottom: 0px;
 }
@@ -258,8 +258,10 @@ div#map-tooltip > div {
 }
 
 #resource-list > li{
-    margin: 0 0 0 px 0;
-    line-height: 1.8;
+    margin: 0 0 .45rem 0;
+    line-height: 1.35;
+    /*margin: 1.8;
+    /*line-height: 1.8;*/
 }
 
 hr {
@@ -279,7 +281,7 @@ hr {
     justify-content: center;
     font-weight: 400;
     font-size: .8rem;
-
+    line-height: 1.1rem;
     margin: auto;
     /* margin-top: 20px; */
     margin-bottom: 20px;
